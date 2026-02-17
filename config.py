@@ -7,7 +7,7 @@ def load_config():
         'pilot_sheet_id': os.getenv('PILOT_SHEET_ID', '10jtVgImDYkaxvEkFH1t_cPeISDk1wNCL-xlxIf0vTyU'),
         'drone_sheet_id': os.getenv('DRONE_SHEET_ID', '1VlqJCLuPXYlC8aKzyMQmw2sTwa-AcLJod07E0-g49oY'),
         'credentials_file': os.getenv('CREDENTIALS_FILE', 'credentials.json'),
-        'gemini_api_key': os.getenv('GEMINI_API_KEY', 'AIzaSyBkhs-3-GQ2fj9Q0Lkyzbjke52sAsaKT1U')
+        'gemini_api_key': os.getenv('GEMINI_API_KEY', 'GEMINI_SECRET_KEY')
     }
     
     try:
